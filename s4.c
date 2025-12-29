@@ -26,7 +26,7 @@ int main  ()
       
      if(firstcodon == 0)
 
-	{
+	  {
 	   firstcodon=1;
   
            for( k=i+3; k<=len-3; k+=3)
@@ -47,9 +47,9 @@ int main  ()
                                          InternalStop=1;
                                       }
                                 lastcodon=1;
-		                }
+		                    }
               }
-         }    
+      }    
    }
 
    
@@ -71,7 +71,6 @@ int main  ()
         {
            printf("No stop codon found. \n");
         }
-
 
    if (InternalStop==1)
 	{
