@@ -47,9 +47,9 @@ int main  ()
                                          InternalStop=1;
                                       }
                                 lastcodon=1;
-		                }
+		                    }
               }
-         }    
+    }    
    }
 
    
@@ -74,13 +74,13 @@ int main  ()
 
 
    if (InternalStop==1)
-	{
-	   printf("Internal stop codon found. \n");
-	}
+	   {
+	      printf("Internal stop codon found. \n");
+	   }
    else
-	{
-	   printf("No internal stop codons. \n");
-	}
+	   {
+	      printf("No internal stop codons. \n");
+	   }
    
 
    if (firstcodon==1 && lastcodon==1 && InternalStop==0)
