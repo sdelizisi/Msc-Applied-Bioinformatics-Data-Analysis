@@ -25,10 +25,10 @@ int main  ()
    if (seq[i]=='A' && seq[i+1]=='T' && seq[i+2]=='G')
 	{
 	   firstcodon=1;
-        }
+    }
    }
    if (firstcodon==1)
-        {
+    {
 	   printf("Start codon found. \n");
 	}
    else
